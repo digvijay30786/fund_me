@@ -12,7 +12,7 @@ export function Navbar({para, link, linkVal}) {
             </div>
             </Link>
             <div>
-                {para}<Link to = {link}>{linkVal }</Link>
+                {para}<Link to = '/signup'>{linkVal }</Link>
             </div>
         </nav>
     </header>

@@ -26,18 +26,30 @@
       "title": "for animals",
       "story": "dfsdfdfdf df sdfsdf sdf sdf sdf sdf sdf sdf sdf sdf sdf sdf sdf ",
       "id": 1
+    },
+    {
+      "basics": {
+        "country": "GB",
+        "postcode": "441 20 - Alingsås, Västra Götal län",
+        "fundReason": "Weddings,Honeymoons"
+      },
+      "targetMoney": "1000",
+      "img": "blob:http://localhost:3000/4c9fdeec-c593-43ed-83f2-a8fff2e32adf",
+      "title": "rahul",
+      "story": "12345724fdf234 3r dfsd fdwf 3 rvdgdv",
+      "id": 2
     }
   ],
   "myCurrFundraiser": {
     "basics": {
       "country": "GB",
       "postcode": "441 20 - Alingsås, Västra Götal län",
-      "fundReason": "Animals,Pets"
+      "fundReason": "Weddings,Honeymoons"
     },
-    "targetMoney": "15000",
-    "img": "blob:http://localhost:3000/e9c0ac71-c3e3-4245-b7c7-7d529633b954",
-    "title": "for animals",
-    "story": "dfsdfdfdf df sdfsdf sdf sdf sdf sdf sdf sdf sdf sdf sdf sdf sdf "
+    "targetMoney": "1000",
+    "img": "blob:http://localhost:3000/4c9fdeec-c593-43ed-83f2-a8fff2e32adf",
+    "title": "rahul",
+    "story": "12345724fdf234 3r dfsd fdwf 3 rvdgdv"
   },
   "currUpdates": []
 }

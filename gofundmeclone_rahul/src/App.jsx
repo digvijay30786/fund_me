@@ -1,5 +1,5 @@
 import Main from "./components/components/main";
-import Works from './components/components/works'
+// import Works from './components/components/works'
 import {ManageFundLanding} from './components/ManageFundPage/ManageFundLanding'
 import HowItWorks from './components/HowItWorks';
 import { FundraiserPayment } from './components/ManageFundPage/FundraiserPayment';
@@ -15,7 +15,7 @@ export default function App() {
     <Switch>
       <Route exact path='/' component={Main} />
       <Route exact path='/works' component={HowItWorks} />
-      <Route path='/rahul' component={Rahul} />
+      <Route path='/signup' component={Rahul} />
       <Route path='/manageFundingPage' component={ManageFundLanding} />
       <Route path='/fundraiser' component={FundraiserPayment} />
       <Route path='/singin' component={Signin} />

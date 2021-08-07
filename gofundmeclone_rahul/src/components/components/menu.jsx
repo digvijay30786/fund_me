@@ -1,8 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-import { Switch, Route } from "react-router-dom";
-import { Rahul } from '../rahul';
 
 export default function Menu() {
   const Header = styled.div`
@@ -172,8 +170,8 @@ export default function Menu() {
       </Link>
       </ImgDiv>
       <nav><Link to='/works' className="link">How its Work</Link></nav>
-      <nav><Link to='/singin' className="link">Signin</Link></nav>
-      <Link to='/rahul'><FundmeBtn>Start a GoFundMe</FundmeBtn></Link>
+      {/* <nav><Link to='/singin' className="link">Signin</Link></nav> */}
+      <Link to='/signup'><FundmeBtn>Start a GoFundMe</FundmeBtn></Link>
     </Header>
   );
 }
