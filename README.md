@@ -42,3 +42,19 @@ We Used many External Library and npm packages in our Project.
 6.react-dropzone
 7.react-spring
 8.styled-components
+
+## Server
+We Used Json-Server for save important Details in json file Like: Sign-up Details and Payment details so We have Use Three Two diffrent Server in this project server and start is mandatory step when we use the Clone Website.
+
+script for run this server :
+
+  ### `Install JSON Server`
+
+  `script : npm install -g json-server`
+  
+  ### `Move in Directory`
+  `path : /src/my-local-database/`
+  
+  ### `Start the Server and Assign Port Number`
+  `json-server db.json --port 3001`
+  `json-server payment.json --port 3002`
